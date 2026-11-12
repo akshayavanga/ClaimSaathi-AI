@@ -1,0 +1,31 @@
+# Environment variables
+.env
+backend/.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.db
+*.sqlite3
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Uploads & Temp
+backend/uploads/invoices/*
+!backend/uploads/invoices/.gitkeep
+uploads/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
